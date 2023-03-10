@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+:root {
+  --base-color: #dbdbdb;
+  --border: dashed 1px rgba(219, 219, 219, 0.9);
+  --selection-background: rgba(219, 219, 219, 0.99);
+  --selection-text: #000;
+  --background-color: #000;
+  --text-color: var(--base-color);
+  --font-family: "Fira Code", monospace;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 3px;
+  margin-right: 6px;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.border-tb {
+  border-top: 1px dashed #fff;
+  border-bottom: 1px dashed #fff;
+}
+.border-t {
+    border-top: 1px dashed #fff;
+}
+.cursor {
+    cursor: pointer;
+}
